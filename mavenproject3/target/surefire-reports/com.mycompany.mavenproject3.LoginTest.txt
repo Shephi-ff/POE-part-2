@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.mavenproject3.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.114 s <<< FAILURE! -- in com.mycompany.mavenproject3.LoginTest
+com.mycompany.mavenproject3.LoginTest.testLoginUser -- Time elapsed: 0.039 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.mycompany.mavenproject3.Login.loginUser(String, String)" because "instance" is null
+	at com.mycompany.mavenproject3.LoginTest.testLoginUser(LoginTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
